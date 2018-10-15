@@ -49,6 +49,15 @@
                     <li><a href="<?php echo BASEURL; ?>produtos">Gerenciar Produtos</a></li>
                     <li><a href="<?php echo BASEURL; ?>produtos/add.php">Novo Produto</a></li>
                 </ul>
+            </li> 
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Fornecedores <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="<?php echo BASEURL; ?>fornecedores">Gerenciar Fornecedores</a></li>
+                    <li><a href="<?php echo BASEURL; ?>fornecedores/add.php">Novo Fornecedor</a></li>
+                </ul>
             </li>            
           </ul>
         </div><!--/.navbar-collapse -->

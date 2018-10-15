@@ -5,37 +5,37 @@
 
 <?php include(HEADER_TEMPLATE); ?>
 
-<h2>Novo Cliente</h2>
+<h2>Novo Fornecedor</h2>
 
 <form action="add.php" method="post">
   <!-- area de campos do form -->
   <hr />
   <div class="row">
-    <div class="form-group col-md-7">
+    <div class="form-group col-md-5">
       <label for="name">Nome</label>
-      <input type="text" class="form-control" name="usuario['nome']">
+      <input type="text" class="form-control" name="fornecedor['nome']" require>
     </div>
 
     <div class="form-group col-md-3">
-      <label for="campo2">CPF</label>
-      <input type="text" class="form-control" name="usuario['cpf']">
+      <label for="campo2">Telefone</label>
+      <input type="text" class="form-control" id="telefone" name="fornecedor['fone']" require>
     </div>
 
-    <div class="form-group col-md-2">
-      <label for="campo3">Cidade</label>
-      <input type="text" class="form-control" name="usuario['cidade']">
+    <div class="form-group col-md-4">
+      <label for="campo3">E-mail</label>
+      <input type="email" class="form-control" name="fornecedor['email']" require>
     </div>
   </div>
   
   <div class="row">
     <div class="form-group col-md-5">
-      <label for="campo1">Estado</label>
-      <input type="text" class="form-control" name="usuario['estado']">
+      <label for="campo1">Cidade</label>
+      <input type="text" class="form-control" name="fornecedor['cidade']" require>
     </div>
 
     <div class="form-group col-md-3">
-      <label for="campo2">Telefone</label>
-      <input type="text" id="telefone" class="form-control" name="usuario['telefone']">
+      <label for="campo2">Estado</label>
+      <input type="text" class="form-control" name="fornecedor['estado']" require>
     </div>
     </div>
   

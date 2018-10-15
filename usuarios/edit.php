@@ -33,7 +33,7 @@
 
     <div class="form-group col-md-3">
       <label for="campo2">Telefone</label>
-      <input type="text" class="form-control" name="usuario['telefone']" value="<?php echo $usuario['telefone']; ?>">
+      <input type="text" class="form-control" id="telefone" name="usuario['telefone']" value="<?php echo $usuario['telefone']; ?>">
     </div>
 
     

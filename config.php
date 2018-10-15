@@ -1,10 +1,10 @@
 <?php
 
-define('DB_NAME', 'crud');
+define('DB_NAME', 'trabalhoCleber');
 
 define('DB_USER', 'root');
 
-define('DB_PASSWORD', 'usbw');
+define('DB_PASSWORD', '');
 
 define('DB_HOST', 'localhost');
 
